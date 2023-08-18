@@ -1,0 +1,45 @@
+*required: 
+python3.11
+
+*BACKEND:
+
+*open cmd in this dir:
+
+*pip install virtualenv
+virtualenv venv
+venv\scripts\activate
+pip install -r requirements.txt
+cd dlc_web
+*py manage.py createsuperuser
+py manage.py runserver
+
+*ctrl + click on port
+
+
+###
+####
+###
+
+
+
+
+
+
+
+
+*FRONTEND:
+
+*open 1more cmd in the same directory as when starting the backend:
+
+venv\scripts\activate
+
+*now both frontend and backend must work 
+
+
+*open XAMPP control panel 
+*start Apache and MySQL in XAMPP
+
+http://localhost/phpmyadmin
+*click on "mysql_database" in navbar
+
+*this is your database
